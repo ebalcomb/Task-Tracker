@@ -4,4 +4,8 @@
 	<input type="submit" value="Submit">
 </form>
 
-{{ to_do }}
+<ul>
+{% for item in to_do %}
+<li>{{item}}</li>
+{% endfor %}
+</ul>
